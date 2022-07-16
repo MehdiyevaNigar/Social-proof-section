@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root{
+/*Colors
+
+### Primary
+*/
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+
+/*Neutral*/
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+body{
+    margin: 0;
+    padding: 80px;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    background-color: var(--White);
+    font-size: 15px;
+    font-family: 'League Spartan';
+}
+
+h1{
+    color: var(--Very-Dark-Magenta);
+    font-size: 50px;
+}
+
+.we{
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.item1{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reqem{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card{
+    width: 400px;
+    height: 50px;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+svg{
+    margin-top: 15px;
+}
+
+.birr{
+    margin-left: 20px;
+}
+
+.card2{
+    margin-left: 40px;
+}
+
+.card3{
+    margin-left: 80px;
+}
+
+.eded{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+
+.ededs{
+    width: 400px;
+    height: 250px;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+}
+
+.ededs2{
+    margin-top: 15px;
+}
+
+.ededs3{
+    margin-top: 30px;
+}
+
+.colton{
+    margin: 30px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.irene{
+    margin: 30px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.anne{
+    margin: 30px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.karts{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic{
+    margin-top: 40px;
+    color: var(--Light-Grayish-Magenta);
+}
+
+span{
+    color: var(--Soft-Pink);
+}
+
+.custom{
+    color: var(--Light-Grayish-Magenta);
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: -5px;
+    letter-spacing: 1px;
+}
